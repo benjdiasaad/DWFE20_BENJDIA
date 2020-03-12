@@ -1,0 +1,59 @@
+<button mat-raised-button color="warn" routerLink="/addProfil">Nouveau Profil</button>
+
+
+<mat-form-field>
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="listData" matSort class="mat-elevation-z8">
+
+        <ng-container matColumnDef="identifiant">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>  identifiant</th>
+            <td mat-cell *matCellDef="let element"> {{element.identifiant}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="profils">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> profils</th>
+            <td mat-cell *matCellDef="let element"> {{element.profils}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="date_creation">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> date_creation </th>
+            <td mat-cell *matCellDef="let element"> {{element.date_creation}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="email_utilisateur">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> seuil max </th>
+            <td mat-cell *matCellDef="let element"> {{element.email_utilisateur}} </td>
+        </ng-container>
+
+    
+        <!--ng-container matColumnDef="Etat_general">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Etat_general </th>
+            <td mat-cell *matCellDef="let element">
+                <i class="material-icons orange600" *ngIf="(!element.Etat_general)">warning</i>
+                <i class="material-icons green" *ngIf="(element.Etat_general)">assignment_turned_in</i>
+            </td>
+        </ng-container-->
+
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef> Actions </th>
+            <td mat-cell *matCellDef="let row">
+                <button mat-icon-button (click)="onEdit(row)">
+                    <mat-icon>launch</mat-icon>
+                </button>
+                <button mat-icon-button (click)="onDelete(row.id)" color="warn">
+                    <mat-icon>delete_outline</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>

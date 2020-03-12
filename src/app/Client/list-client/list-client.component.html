@@ -1,0 +1,77 @@
+<button mat-raised-button color="warn" routerLink="/addClient">Nouvelle Client</button>
+
+
+<mat-form-field>
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="listData" matSort class="mat-elevation-z8">
+
+        <ng-container matColumnDef="nom_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>  nom Client</th>
+            <td mat-cell *matCellDef="let element"> {{element.nom_client}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="prenom_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> nom court </th>
+            <td mat-cell *matCellDef="let element"> {{element.prenom_client}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="statut_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> status </th>
+            <td mat-cell *matCellDef="let element"> {{element.statut_client}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="photo_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> ville </th>
+            <td mat-cell *matCellDef="let element"> {{element.photo_client}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="telephone_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Adresse </th>
+            <td mat-cell *matCellDef="let element"> {{element.telephone_client}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="email_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Mail </th>
+            <td mat-cell *matCellDef="let element"> {{element.email_client}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="adresse_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> tel fix </th>
+            <td mat-cell *matCellDef="let element"> {{element.adresse_client}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="ville_client">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> tel portable</th>
+            <td mat-cell *matCellDef="let element"> {{element.ville_client}} </td>
+        </ng-container>
+
+        <!--ng-container matColumnDef="Etat_general">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Etat_general </th>
+            <td mat-cell *matCellDef="let element">
+                <i class="material-icons orange600" *ngIf="(!element.Etat_general)">warning</i>
+                <i class="material-icons green" *ngIf="(element.Etat_general)">assignment_turned_in</i>
+            </td>
+        </ng-container-->
+
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef> Actions </th>
+            <td mat-cell *matCellDef="let row">
+                <button mat-icon-button (click)="onEdit(row)">
+                    <mat-icon>launch</mat-icon>
+                </button>
+                <button mat-icon-button (click)="onDelete(row.id)" color="warn">
+                    <mat-icon>delete_outline</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>

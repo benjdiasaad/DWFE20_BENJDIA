@@ -1,0 +1,59 @@
+<button  mat-raised-button color="accent" routerLink="/client" routerLinkActive="router-link-active">Tous les Client</button>
+<br>
+<form [formGroup]="service.form" class="normal-form" (submit)="onSubmit()">
+    <mat-card>
+        <mat-card-content>
+            <mat-card-title>Ajouter Client</mat-card-title>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title> Client </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <input type="hidden" formControlName="id">
+                    <mat-form-field>
+                        <input formControlName="nom_client" matInput placeholder="Nom">
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <input formControlName="prenom_client" matInput placeholder="Prenom">
+                    </mat-form-field>
+                
+                
+                    <mat-form-field>
+                        <input formControlName="statut_client" matInput placeholder="statut">
+                    </mat-form-field>
+                    
+                    <mat-form-field>
+                        <input formControlName="photo_client" matInput placeholder="Photo">
+                    </mat-form-field>
+                    
+                    <mat-form-field>
+                        <input formControlName="telephone_client" matInput placeholder="tel">
+                    </mat-form-field>
+                    
+                    <mat-form-field>
+                        <input formControlName="email_client" matInput placeholder="email">
+                    </mat-form-field>
+                    
+                    <mat-form-field>
+                        <input formControlName="adresse_client" matInput placeholder="aAresee">
+                    </mat-form-field>
+                    
+                    <mat-form-field>
+                        <input formControlName="ville_client" matInput placeholder="Ville">
+                    </mat-form-field>
+                    
+
+                </mat-expansion-panel>
+
+
+
+            </mat-accordion>
+        </mat-card-content>
+        <div class="button-row">
+            <button mat-raised-button color="primary" type="submit" [disabled]="service.form.invalid">Submit</button>
+            <button mat-raised-button color="warn" type="reset" (click)="onClear()">Clear</button>
+        </div>
+    </mat-card>
+
+</form>
