@@ -1,6 +1,9 @@
-# FirstProject
+# Angular Application using angular material and Bootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
+
+## Demo of Application
+You can find the demo of the app here: https://rlmibaqql.github.stackblitz.io/
 
 ## Development server
 
