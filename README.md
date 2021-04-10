@@ -36,3 +36,10 @@ Pour que le projet soit opérationnel sur votre ordinateur local, procédez comm
 
 ## Screen Shots
 ![01 - Product Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Simulation.png)
+![02 - Fournisseur Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Fournisseur.png)
+![03 - Client Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Client.png)
+![04 - Profile Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/profile.png)
+![05 - Fournisseur Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/liste.png)
+![06 - Filter Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Filter.png)
+![07 - AddProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/nouvelle%20produit.png)
+![08 - FormulaireProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/new%20produit.png)
