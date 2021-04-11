@@ -42,4 +42,4 @@ Pour que le projet soit opérationnel sur votre ordinateur local, procédez comm
 ![05 - Fournisseur Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/liste.png)
 ![06 - Filter Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Filter.png)
 ![07 - AddProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/nouvelle%20produit.png)
-![08 - FormulaireProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/nouvelle%20produit.png)
+![08 - FormulaireProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/new%20product.png)
