@@ -1,45 +1,30 @@
-## Smart Vents - EXAM - Developpement Web Front End  [Angular]
+## Salary Prediction - Machine Learning Web App [Python, Maachine Learning]
 
-Hello! My application named "Smart Ventes".
+Hello! My application named "Salary Prediction".
 
 ## À propos de ce projet
-Notre objectif est de développer une application angulaire SmartVentes. L'application comprendra les modules suivants: un module de gestion des ventes et un module utilisateur et droits. Le module de gestion des ventes est composé des éléments suivants:
-
-* Produit: nom du produit, nom abrégé du produit, prix de base du produit, prix de vente du produit, seuil maximum de livraison du produit, unité du produit, image du produit, quantité initiale en stock, courant la quantité en dépôt
-* Fournisseur: nom du fournisseur, nom abrégé du fournisseur, ville du fournisseur, adresse du fournisseur, Tel Fix du fournisseur, téléphone portable du fournisseur, fax du fournisseur, adresse e-mail du fournisseur
-* Client: nom du client, prénom du client, statut du client, photo du client, téléphone du client, e-mail du client, adresse du client, ville du client
-
-
-Le module Utilisateurs et Droits / Rôles vous permet de gérer les utilisateurs de l'application SmartVentes en s'appuyant sur un profil et les autorisations associées.
-
-Utilisateur: nom d'utilisateur, profils, date de création, date de fin, photo de l'utilisateur, email de l'utilisateur
-Dans l'application, vous disposez de deux types de données: consultables ou modifiables selon le profil de l'utilisateur.
+c'est une application Web Machine Learning en Python avec Streamlit. j'ai utilisé des données du monde réel pour créer un modèle d'apprentissage automatique. Analyser les données et construiser notre modèle, et par la suite j'ai construit l'application Web à l'aide de streamlit.
 
 ## Installation
 
 Pour que le projet soit opérationnel sur votre ordinateur local, procédez comme suit :
 
-1. cloner avec l'url donnée en utilisant commande => git clone https://github.com/benjdia/DWFE_BENJDIA
-2. Exécutez npm install, pour installer toutes les dépendances nécessaires
-2. Exécutez la commande json-server --watch db.json dans votre invite de commande pour exécuter le serveur de base de données json
-4. Exécutez la commande ng serve dans votre invite de commande pour démarrer le serveur
+1. cloner avec l'url donnée en utilisant commande => git clone https://github.com/benjdiasaad/WebApp-ML-salaryprediction
+2. Exécutez pip install streamlit, pour installer streamlit
+3. Exécutez la commande streamlit run app.py dans votre invite de commande pour démarrer l'application
 
 ## Technologies utilisées
 
-* Angular Frontend Framework.
-* webpack for compiling and optimizing assets (already integrated in angular).
-* Json-Server for manage data locally.
-* Material Design.
-* Bootstrap 4 for styling.
+* Python.
+* Les algorithmes de ML.
+* Jupyter Notebook.
 * Visual Studio Code (IDE).
 * Git.
 
 ## Screen Shots
-![01 - Product Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Simulation.png)
-![02 - Fournisseur Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Fournisseur.png)
-![03 - Client Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Client.png)
-![04 - Profile Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/profile.png)
-![05 - Fournisseur Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/liste.png)
-![06 - Filter Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Filter.png)
-![07 - AddProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/nouvelle%20produit.png)
-![08 - FormulaireProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/new%20product.png)
+![01 - home page](https://github.com/benjdiasaad/WebApp-ML-salaryprediction/blob/main/screenshots/1.png)
+![02 - predict salary](https://github.com/benjdiasaad/WebApp-ML-salaryprediction/blob/main/screenshots/2.png)
+![03 - explore](https://github.com/benjdiasaad/WebApp-ML-salaryprediction/blob/main/screenshots/3.png)
+![02 - histogram](https://github.com/benjdiasaad/WebApp-ML-salaryprediction/blob/main/screenshots/4.png)
+![02 - plot](https://github.com/benjdiasaad/WebApp-ML-salaryprediction/blob/main/screenshots/5.png)
+
