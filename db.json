@@ -16,26 +16,37 @@
   "fournisseur": [
     {
       "id": 1,
-      "nom_fournisseur": "BENJDIA",
-      "nom_court_fournisseur": "BNJ",
+      "nom_fournisseur": "BENJDIA Saad",
+      "nom_court_fournisseur": "Bnj Saad",
       "ville_fournisseur": "Settat",
       "Adresse_fornisseu": "Settat123",
       "Tel_Fix_fornissseur": "34343434",
       "Tel_mobile_fournisseur": "3433433343",
       "Fax_fournisseur": "34343",
       "adresse_email_fournisseur": "wwe@wrwwew"
+    },
+    {
+      "id": 2,
+      "nom_fournisseur": "Luca Changretta",
+      "nom_court_fournisseur": "Luca",
+      "ville_fournisseur": "Milan",
+      "Adresse_fornisseu": "Galleria Vittorio Emanuele II",
+      "Tel_Fix_fornissseur": "055555626",
+      "Tel_mobile_fournisseur": "066646436",
+      "Fax_fournisseur": "054673892",
+      "adresse_email_fournisseur": "lucachangretta@gmail.com"
     }
   ],
   "client": [
     {
       "id": 1,
-      "nom_client": "wdw",
-      "prenom_client": "dwd",
-      "statut_client": "jjh",
-      "photo_client": "jhj",
-      "telephone_client": "hjh",
-      "email_client": "jhj",
-      "adresse_client": "jhj",
+      "nom_client": "Reda Zin",
+      "prenom_client": "reda",
+      "statut_client": "en ligne",
+      "photo_client": "https://images-na.ssl-images-amazon.com/images/I/41PLe5WJSxL._AC_.jpg",
+      "telephone_client": "0677788738",
+      "email_client": "benjdiasaad09@gmail.com",
+      "adresse_client": "settat lkrakra N°9",
       "ville_client": "settat"
     }
   ],
