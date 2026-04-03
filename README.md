@@ -39,5 +39,3 @@ Pour que le projet soit opérationnel sur votre ordinateur local, procédez comm
 ![05 - Product Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/Simulation.png)
 ![06 - Fournisseur Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/nouvelle%20produit.png)
 ![07 - AddProduct Page](https://github.com/benjdiasaad/DWFE20_BENJDIA/blob/master/ScreenShots/new%20product.png)
-
-add achievement : Pair Extraordinaire 👯
